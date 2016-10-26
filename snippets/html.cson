@@ -61,7 +61,7 @@
     'descriptionMoreURL': 'https://angular.io/docs/ts/latest/api/common/index/NgSwitch-directive.html'
     'body': """
     <div [ngSwitch]="${1:conditionExpression}">
-      <div *ngSwitchWhen="${2:expression}">${3:output}</div>
+      <div *ngSwitchCase="${2:expression}">${3:output}</div>
       <div *ngSwitchDefault>${4:output2}</div>
     </div>
     """
