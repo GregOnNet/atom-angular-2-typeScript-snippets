@@ -268,7 +268,7 @@ This snippet inserts the `ngSwitch` directive.
 
 ```html
 <div [ngSwitch]="conditionExpression">
-  <div *ngSwitchWhen="expression">output</div>
+  <div *ngSwitchCase="expression">output</div>
   <div *ngSwitchDefault>output2</div>
 </div>
 ```
