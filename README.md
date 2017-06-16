@@ -2,6 +2,16 @@
 
 This extension for Atom adds snippets for Angular 2 for TypeScript and HTML.
 
+## Installation
+
+Atom Package: https://atom.io/packages/angular-2-typescript-snippets
+
+```bash
+apm install angular-2-typeScript-snippets
+```
+
+Or Settings/Preferences ➔ Packages ➔ Search for `angular-2-typeScript-snippets`
+
 ## Usage
 
 Type part of a snippet, press `enter`, and the snippet unfolds.
