@@ -44,7 +44,7 @@
     'description': 'Jasmine describe snippet'
     'descriptionMoreURL': 'https://jasmine.github.io/api/2.6/global.html#describe'
     'body': """
-    describe('${1:description}' => {
+    describe('${1:description}', () => {
       ${2:body}
     });
     """
@@ -54,7 +54,7 @@
     'description': 'Jasmine describe snippet'
     'descriptionMoreURL': 'https://jasmine.github.io/api/2.6/global.html#fdescribe'
     'body': """
-    fdescribe('${1:description}' => {
+    fdescribe('${1:description}', () => {
       ${2:body}
     });
     """
@@ -64,7 +64,7 @@
     'description': 'Jasmine it snippet'
     'descriptionMoreURL': 'https://jasmine.github.io/api/2.6/global.html#fit'
     'body': """
-    fit('${1:description}' => {
+    fit('${1:description}', () => {
       ${2:body}
     }, ${3:jasmine.DEFAULT_TIMEOUT_INTERVAL});
     """
@@ -74,7 +74,7 @@
     'description': 'Jasmine it snippet'
     'descriptionMoreURL': 'https://jasmine.github.io/api/2.6/global.html#it'
     'body': """
-    it('${1:description}' => {
+    it('${1:description}', () => {
       ${2:body}
     }, ${3:jasmine.DEFAULT_TIMEOUT_INTERVAL});
     """
@@ -84,7 +84,7 @@
     'description': 'Jasmine describe snippet'
     'descriptionMoreURL': 'https://jasmine.github.io/api/2.6/global.html#xdescribe'
     'body': """
-    xdescribe('${1:suite}' => {
+    xdescribe('${1:suite}', () => {
       ${2:body}
     });
     """
@@ -94,7 +94,7 @@
     'description': 'Jasmine it snippet'
     'descriptionMoreURL': 'https://jasmine.github.io/api/2.6/global.html#xit'
     'body': """
-    xit('${1:description}' => {
+    xit('${1:description}', () => {
       ${2:body}
     }, ${3:jasmine.DEFAULT_TIMEOUT_INTERVAL});
     """
